@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of packages to check and install
-packages=("neofetch" "git" "curl" "vim")  # Modify this list with your desired packages
+packages=("neofetch" "git" "curl" "vim" "tty-clock")  # Modify this list with your desired packages
 
 # Loop through the packages and check if they are installed
 for package in "${packages[@]}"; do
